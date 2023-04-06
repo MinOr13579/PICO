@@ -1,0 +1,11 @@
+C:\Users\alesh\source\repos\piz\piz\bin\Debug\piz.exe.config
+C:\Users\alesh\source\repos\piz\piz\bin\Debug\piz.exe
+C:\Users\alesh\source\repos\piz\piz\bin\Debug\piz.pdb
+C:\Users\alesh\source\repos\piz\piz\obj\Debug\piz.csproj.AssemblyReference.cache
+C:\Users\alesh\source\repos\piz\piz\obj\Debug\piz.csproj.SuggestedBindingRedirects.cache
+C:\Users\alesh\source\repos\piz\piz\obj\Debug\piz.Form1.resources
+C:\Users\alesh\source\repos\piz\piz\obj\Debug\piz.Properties.Resources.resources
+C:\Users\alesh\source\repos\piz\piz\obj\Debug\piz.csproj.GenerateResource.cache
+C:\Users\alesh\source\repos\piz\piz\obj\Debug\piz.csproj.CoreCompileInputs.cache
+C:\Users\alesh\source\repos\piz\piz\obj\Debug\piz.exe
+C:\Users\alesh\source\repos\piz\piz\obj\Debug\piz.pdb
