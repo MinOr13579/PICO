@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data.SqlClient;
+﻿using System.Data.SqlClient;
 
 namespace piz
 {
     internal class DataBase
     {
-        SqlConnection sqlConnection = new SqlConnection(@"Data Source=DESKTOP-HMUKJQM\SQLEXPRESS;Initial Catalog=test;Integrated Security=True");
+        SqlConnection sqlConnection = new SqlConnection(@"Data Source=localhost;Initial Catalog=test;Integrated Security=True");
 
         public void openConnection()
         {

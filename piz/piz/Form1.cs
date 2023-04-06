@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
@@ -23,14 +17,9 @@ namespace piz
             StartPosition = FormStartPosition.CenterScreen;
         }
         
-        private void log_in_load(object sender, EventArgs e)
-        {
-            textBox2.PasswordChar = '*'; 
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
 
             if (textBox3.Text != label3.Text)
             {
@@ -46,7 +35,7 @@ namespace piz
 
                 DataTable table = new DataTable();
 
-                string querystring = $"select id_user, login_user, password_user from register1 where login_user = '{loginUser}' and password_user = '{passUser}'";
+                string querystring = $"select id_user, login_user, password_user from register where login_user = '{loginUser}' and password_user = '{passUser}'";
 
                 SqlCommand command = new SqlCommand(querystring, dataBase.getConnection());
 
@@ -66,6 +55,8 @@ namespace piz
                     MessageBox.Show("Нема такого акка!", "повтори", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
+
+
 
         }
 
